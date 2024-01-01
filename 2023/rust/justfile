@@ -3,4 +3,4 @@ project-setup day:
 
 new day: (project-setup day)
     echo "Cleainng up and setting up project."
-    rip ./{{day}}/src/main.rs && mkdir ./{{day}}/src/bin && cp ./template/bin/* ./{{day}}/src/bin
+    rip ./{{day}}/src/main.rs && mkdir ./{{day}}/src/bin && cp ./template/bin/* ./{{day}}/src/bin && cp ./template/justfile ./{{day}}
