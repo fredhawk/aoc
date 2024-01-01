@@ -1,0 +1,1 @@
+FlatMap<std::slice::Iter<'_, ((usize, usize), u32)>, Map<std::slice::Iter<'_, (i32, i32)>, {closure@src/bin/part1.rs:78:34: 78:45}>, {closure@src/bin/part1.rs:77:70: 77:80}>
