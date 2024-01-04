@@ -1,0 +1,9 @@
+alias t := test
+
+test:
+    echo "Running tests."
+    cargo test
+
+run part:
+    echo Running {{part}}
+    cargo run --bin {{part}}
